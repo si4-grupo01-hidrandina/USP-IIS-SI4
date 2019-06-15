@@ -1,0 +1,24 @@
+C:\Users\reyes\Desktop\Nueva carpeta (2)\LOGIN\LOGIN\bin\Debug\LOGIN.exe.config
+C:\Users\reyes\Desktop\Nueva carpeta (2)\LOGIN\LOGIN\obj\Debug\LOGIN.csprojResolveAssemblyReference.cache
+C:\Users\reyes\Desktop\Nueva carpeta (2)\LOGIN\LOGIN\obj\Debug\LOGIN.Properties.Resources.resources
+C:\Users\reyes\Desktop\Nueva carpeta (2)\LOGIN\LOGIN\obj\Debug\LOGIN.csproj.GenerateResource.Cache
+C:\Users\reyes\Desktop\Nueva carpeta (2)\LOGIN\LOGIN\bin\Debug\LOGIN.exe
+C:\Users\reyes\Desktop\Nueva carpeta (2)\LOGIN\LOGIN\bin\Debug\LOGIN.pdb
+C:\Users\reyes\Desktop\Nueva carpeta (2)\LOGIN\LOGIN\obj\Debug\LOGIN.exe
+C:\Users\reyes\Desktop\Nueva carpeta (2)\LOGIN\LOGIN\obj\Debug\LOGIN.pdb
+C:\Users\reyes\Desktop\Nueva carpeta (2)\LOGIN\LOGIN\obj\Debug\LOGIN.RECUPERACIONPASS.resources
+C:\Users\reyes\Desktop\Nueva carpeta (2)\LOGIN\LOGIN\obj\Debug\LOGIN.LOGEO.resources
+C:\Users\reyes\Desktop\Nueva carpeta (2)\LOGIN\LOGIN\obj\Debug\LOGIN.ADMINISTRADOR.resources
+C:\Users\reyes\Desktop\Nueva carpeta (2)\LOGIN\LOGIN\obj\Debug\LOGIN.USUARIO.resources
+C:\Users\USP\Downloads\LOGIN\LOGIN\bin\Debug\LOGIN.exe.config
+C:\Users\USP\Downloads\LOGIN\LOGIN\obj\Debug\LOGIN.exe
+C:\Users\USP\Downloads\LOGIN\LOGIN\obj\Debug\LOGIN.pdb
+C:\Users\USP\Downloads\LOGIN\LOGIN\bin\Debug\LOGIN.exe
+C:\Users\USP\Downloads\LOGIN\LOGIN\bin\Debug\LOGIN.pdb
+C:\Users\USP\Downloads\LOGIN\LOGIN\obj\Debug\LOGIN.csprojResolveAssemblyReference.cache
+C:\Users\USP\Downloads\LOGIN\LOGIN\obj\Debug\LOGIN.ADMINISTRADOR.resources
+C:\Users\USP\Downloads\LOGIN\LOGIN\obj\Debug\LOGIN.LOGEO.resources
+C:\Users\USP\Downloads\LOGIN\LOGIN\obj\Debug\LOGIN.Properties.Resources.resources
+C:\Users\USP\Downloads\LOGIN\LOGIN\obj\Debug\LOGIN.RECUPERACIONPASS.resources
+C:\Users\USP\Downloads\LOGIN\LOGIN\obj\Debug\LOGIN.USUARIO.resources
+C:\Users\USP\Downloads\LOGIN\LOGIN\obj\Debug\LOGIN.csproj.GenerateResource.Cache
