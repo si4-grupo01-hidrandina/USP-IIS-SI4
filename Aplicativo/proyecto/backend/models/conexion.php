@@ -6,6 +6,9 @@ class Conexion{
 
 		$link = new PDO("mysql:host=localhost;dbname=cms","root","");
 		return $link;
+		
+		
+		
 
 	}
 
