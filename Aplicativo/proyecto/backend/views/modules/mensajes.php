@@ -25,35 +25,13 @@ MENSAJES
 	    <hr>
 	 </div>
 
-	  <div class="well well-sm">
-		
-		<span class="fa fa-times pull-right"></span>
-		<h3>De: Lorem Ipsum</h3>
-		<h5>Email: correo@correo.com</h5>
-	  	<p>Lorem ipsum dolor sit amet, consectetur...</p>
-	  	<button class="btn btn-info btn-sm">Leer</button>
+	  <?php
 
-	  </div>
+	 	$mostrarMensajes = new MensajesController();
+	 	$mostrarMensajes -> mostrarMensajesController();
+	 	$mostrarMensajes -> borrarMensajesController();
 
-	  <div class="well well-sm">
-		
-		<span class="fa fa-times pull-right"></span>
-		<h3>De: Lorem Ipsum</h3>
-		<h5>Email: correo@correo.com</h5>
-	  	<p>Lorem ipsum dolor sit amet, consectetur...</p>
-	  	<button class="btn btn-info btn-sm">Leer</button>
-
-	  </div>
-
-	  <div class="well well-sm">
-		
-		<span class="fa fa-times pull-right"></span>
-		<h3>De: Lorem Ipsum</h3>
-		<h5>Email: correo@correo.com</h5>
-	  	<p>Lorem ipsum dolor sit amet, consectetur...</p>
-	  	<button class="btn btn-info btn-sm">Leer</button>
-
-	  </div>
+	 ?>
 
 </div>
 
@@ -61,34 +39,48 @@ MENSAJES
  
 	 <div >
 	  <hr>
-	   <button class="btn btn-success">Enviar mensaje a todos los usuarios</button>
+	   <button id="enviarCorreoMasivo"  class="btn btn-success">Enviar mensaje a todos los usuarios</button>
 	    <hr>
 	 </div>
 
-	 <form action="">
+	 <div id="visorMensajes">
 
-	 	<p>Para: Todos los usuarios</p>
-	 	
-	 	<input type="text" placeholder="Título del Mensaje" class="form-control">
+	 <?php
 
-		<textarea name="" id="" cols="30" rows="5" placeholder="Escribe tu mensaje..." class="form-control"></textarea>
+	 	$responderMensajes = new MensajesController();
+	 	$responderMensajes -> responderMensajesController();
+	 	$responderMensajes -> mensajesMasivosController();
 
-		<input type="button" class="form-control btn btn-primary" value="Enviar">
+	 ?>
 
-	 </form>
 
-	 <div class="well well-sm">
-		
-		<span class="fa fa-times pull-right"></span>
-		<h3>De: Lorem Ipsum</h3>
-		<h5>Email: correo@correo.com</h5>
-	  	<p style="background:#fff; padding:10px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-	  	<button class="btn btn-info btn-sm">Responder</button>
-
-	  </div>
-
+	 </div>
 
 
 </div>
+
+<script>
+
+$(window).load(function(){
+
+	var datos = new FormData();
+
+	datos.append("revisionMensajes", 1);
+
+	$.ajax({
+			url:"views/ajax/gestorRevision.php",
+			method: "POST",
+			data: datos,
+			cache: false,
+			contentType: false,
+			processData: false,
+			success: function(respuesta){}
+
+		});
+
+
+})
+
+</script>
 
 <!--====  Fin de MENSAJES  ====-->

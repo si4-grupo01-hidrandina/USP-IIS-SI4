@@ -10,15 +10,17 @@
 
 	<link rel="stylesheet" href="views/css/bootstrap.min.css">
 	<link rel="stylesheet" href="views/css/font-awesome.min.css">
-	<link rel="stylesheet" href="views/css/style.css">
-	<link rel="stylesheet" href="views/css/fonts.css">
+	<link rel="stylesheet" href="views/css/style.min.css">
+	<link rel="stylesheet" href="views/css/fonts.min.css">
 	<link rel="stylesheet" href="views/css/cssFancybox/jquery.fancybox.css">
+	<link rel="stylesheet" href="views/css/sweetalert.css">
 
 	<script src="views/js/jquery-2.2.0.min.js"></script>
 	<script src="views/js/bootstrap.min.js"></script>
 	<script src="views/js/jquery.fancybox.js"></script>
 	<script src="views/js/animatescroll.js"></script>
 	<script src="views/js/jquery.scrollUp.js"></script>
+	<script src="views/js/sweetalert.min.js"></script>
 
 </head>
 
@@ -95,7 +97,7 @@
 
 
 
-<script src="views/js/script.js"></script>
+<script src="views/js/script.min.js"></script>
 
 </body>
 </html>

@@ -4,7 +4,7 @@
 
 	<div id="logo" class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 			
-		<img src="views/images/LOGOTIPO.png" class="img-responsive">
+		<img src="views/images/logotipo.png" class="img-responsive">
 
 	</div>
 
@@ -30,7 +30,7 @@
 
 			<li><a href="#top">Noticias</a></li>
 			<li><a href="#galeria">Galería</a></li>
-			<li><a href="#articulos">Reportes</a></li>
+			<li><a href="#articulos">Artículos</a></li>
 			<li><a href="#videos">Videos</a></li>
 			<li><a href="#contactenos">Contáctenos</a></li>
 

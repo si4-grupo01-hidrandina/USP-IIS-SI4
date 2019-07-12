@@ -46,7 +46,7 @@ INICIO
 			<a href="articulos">
 			<div style="background:#F640DA">
 			<span class="fa fa-file-text-o"></span>
-			<p>Reportes</p>
+			<p>Artículos</p>
 			</div>
 			</a>
 
@@ -74,16 +74,23 @@ INICIO
 
 		</li>
 
-		<li class="botonesInicio">
-		
-			<a href="suscriptores">
-			<div style="background:#ED3E3E">
-			<span class="fa fa-users"></span>
-			<p>Suscriptores</p>
-			</div>
-			</a>
+		<?php 
 
-		</li>
+	  	if($_SESSION["rol"] == 0){
+
+			echo '<li class="botonesInicio">
+			
+				<a href="suscriptores">
+				<div style="background:#ED3E3E">
+				<span class="fa fa-users"></span>
+				<p>Suscriptores</p>
+				</div>
+				</a>
+
+			</li>';
+
+		}
+		?>
 
 	</ul>
 

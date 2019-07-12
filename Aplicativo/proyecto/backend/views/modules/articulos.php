@@ -20,7 +20,7 @@ ARTÍCULOS ADMINISTRABLE
 
 <div id="seccionArticulos" class="col-lg-10 col-md-10 col-sm-9 col-xs-12">
 	
-	<button id="btnAgregarArticulo" class="btn btn-info btn-lg">Agregar Reporte</button>
+	<button id="btnAgregarArticulo" class="btn btn-info btn-lg">Agregar Artículo</button>
 
 	<!--==== AGREGAR ARTÍCULO  ====-->
 
@@ -28,9 +28,9 @@ ARTÍCULOS ADMINISTRABLE
 		
 		<form method="post" enctype="multipart/form-data">
 
-			<input name="tituloArticulo" type="text" placeholder="Título del Reporte" class="form-control" required>
+			<input name="tituloArticulo" type="text" placeholder="Título del Artículo" class="form-control" required>
 
-			<textarea name="introArticulo" id="" cols="30" rows="5" placeholder="Introducción del Reporte" class="form-control"  maxlength="170" required></textarea>
+			<textarea name="introArticulo" id="" cols="30" rows="5" placeholder="Introducción del Articulo" class="form-control"  maxlength="170" required></textarea>
 
 			<input type="file" name="imagen" class="btn btn-default" id="subirFoto" required>
 
@@ -40,9 +40,9 @@ ARTÍCULOS ADMINISTRABLE
 				
 			</div>
 
-			<textarea name="contenidoArticulo" id="" cols="30" rows="10" placeholder="Contenido del Reporte" class="form-control" required></textarea>
+			<textarea name="contenidoArticulo" id="" cols="30" rows="10" placeholder="Contenido del Articulo" class="form-control" required></textarea>
 
-			<input type="submit" id="guardarArticulo" value="Guardar Reporte" class="btn btn-primary">
+			<input type="submit" id="guardarArticulo" value="Guardar Artículo" class="btn btn-primary">
 
 		</form>
 
